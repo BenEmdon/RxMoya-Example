@@ -9,6 +9,8 @@ target 'RxMoyaExample' do
 	pod 'RxCocoa'
 	pod 'Moya-ModelMapper/RxSwift', '~> 4.0.0-beta.3'
 	pod 'RxOptional'
+	pod 'Argo'
+	pod 'Curry'
 
   target 'RxMoyaExampleTests' do
     inherit! :search_paths

@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Argo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Curry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ModelMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -39,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Runes.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RxCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,12 +77,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>0B902D3E52CB0D16AF20313A6FB12070</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0FF6304EABB97519439A68AAA38F9DF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>283950111F1872AF673720D31153B5B7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>43CA639288B9EAE2DE4D685A03432D77</key>
+		<key>378E1575B1A77DB0CC90AD1E5B4E59B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D98A3361CF613E0BAFC8B5E6FB9014F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>82E71A2CA8E28F22EF97A62971E58A60</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>98538CFB3068C301448918844E884A3F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EF436913AB48BA67694F0098F07FC9A0</key>
+		<key>C1368B5EB4D625F1273DAD7D2715C1E8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

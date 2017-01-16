@@ -16,6 +16,8 @@
 		1DC2507A1E2957020018ECE6 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC250791E2957020018ECE6 /* Repository.swift */; };
 		1DC2507C1E295D880018ECE6 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2507B1E295D870018ECE6 /* Issue.swift */; };
 		1DC2507F1E295E4F0018ECE6 /* IssueTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2507E1E295E4F0018ECE6 /* IssueTrackerModel.swift */; };
+		1DCBAE441E2C7CF200525975 /* Response+Argo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCBAE431E2C7CF200525975 /* Response+Argo.swift */; };
+		1DCBAE461E2C823A00525975 /* Observable+Argo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCBAE451E2C823A00525975 /* Observable+Argo.swift */; };
 		5FCA34523BE3DB333ECCF63B /* Pods_RxMoyaExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3289759985F5D5530D99EEA4 /* Pods_RxMoyaExampleTests.framework */; };
 		B2CF1C9307B592A883F9139C /* Pods_RxMoyaExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAE0899307CF3B6ECBC6D8B /* Pods_RxMoyaExample.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +47,8 @@
 		1DC250791E2957020018ECE6 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		1DC2507B1E295D870018ECE6 /* Issue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
 		1DC2507E1E295E4F0018ECE6 /* IssueTrackerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueTrackerModel.swift; sourceTree = "<group>"; };
+		1DCBAE431E2C7CF200525975 /* Response+Argo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+Argo.swift"; sourceTree = "<group>"; };
+		1DCBAE451E2C823A00525975 /* Observable+Argo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Argo.swift"; sourceTree = "<group>"; };
 		23FB6FF97C76AAEE801C062D /* Pods-RxMoyaExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoyaExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMoyaExample/Pods-RxMoyaExample.release.xcconfig"; sourceTree = "<group>"; };
 		3289759985F5D5530D99EEA4 /* Pods_RxMoyaExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMoyaExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		650F046F88872BDAE120FC76 /* Pods-RxMoyaExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoyaExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMoyaExampleTests/Pods-RxMoyaExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				1DC250791E2957020018ECE6 /* Repository.swift */,
 				1DC2507B1E295D870018ECE6 /* Issue.swift */,
 				1DC2507E1E295E4F0018ECE6 /* IssueTrackerModel.swift */,
+				1DCBAE421E2C7CCB00525975 /* ArgoBindings */,
 				1DC2505E1E2868200018ECE6 /* Assets.xcassets */,
 				1DC250601E2868200018ECE6 /* LaunchScreen.storyboard */,
 				1DC250631E2868200018ECE6 /* Info.plist */,
@@ -115,6 +120,15 @@
 				1DC2506E1E2868200018ECE6 /* Info.plist */,
 			);
 			path = RxMoyaExampleTests;
+			sourceTree = "<group>";
+		};
+		1DCBAE421E2C7CCB00525975 /* ArgoBindings */ = {
+			isa = PBXGroup;
+			children = (
+				1DCBAE431E2C7CF200525975 /* Response+Argo.swift */,
+				1DCBAE451E2C823A00525975 /* Observable+Argo.swift */,
+			);
+			name = ArgoBindings;
 			sourceTree = "<group>";
 		};
 		D1886C8BEBD2F5184B001E69 /* Frameworks */ = {
@@ -339,8 +353,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC2507C1E295D880018ECE6 /* Issue.swift in Sources */,
+				1DCBAE461E2C823A00525975 /* Observable+Argo.swift in Sources */,
 				1DC250781E2872C30018ECE6 /* GitHubEndpoint.swift in Sources */,
 				1DC2505A1E2868200018ECE6 /* IssueListViewController.swift in Sources */,
+				1DCBAE441E2C7CF200525975 /* Response+Argo.swift in Sources */,
 				1DC250581E2868200018ECE6 /* AppDelegate.swift in Sources */,
 				1DC2507F1E295E4F0018ECE6 /* IssueTrackerModel.swift in Sources */,
 				1DC2507A1E2957020018ECE6 /* Repository.swift in Sources */,

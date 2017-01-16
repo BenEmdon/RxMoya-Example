@@ -37,7 +37,7 @@ struct IssueTrackerModel {
 	internal func findIssues(repository: Repository) -> Observable<[Issue]?> {
 		return self.provider
 			.request(GitHub.issues(repositoryFullName: repository.fullName))
-			.filterSuccessfulStatusCodes()
+			.debug()
 			.mapArrayOptional(type: Issue.self)
 	}
 
@@ -46,6 +46,5 @@ struct IssueTrackerModel {
 			.request(GitHub.repo(fullname: name))
 			.debug()
 			.mapObjectOptional(type: Repository.self)
-			
 	}
 }
