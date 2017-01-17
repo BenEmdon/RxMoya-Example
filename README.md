@@ -1,2 +1,2 @@
 # RxMoya-Example
-A Rx-Moya MVVM GitHub example app
+A Rx-Moya-Argo MVVM GitHub example app
