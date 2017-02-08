@@ -36,7 +36,6 @@ public extension ObservableType where E == Response {
 				} catch {
 					return Observable.just(nil)
 				}
-
 			}
 			.observeOn(MainScheduler.instance)
 	}

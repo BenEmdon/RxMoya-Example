@@ -11,13 +11,12 @@ import Runes
 import Curry
 
 struct Issue {
-
 	let identifier: Int
 	let number: Int
 	let title: String
 	let body: String
-
 }
+
 extension Issue: Decodable {
 	static func decode(_ json: JSON) -> Decoded<Issue> {
 		return curry(Issue.init)

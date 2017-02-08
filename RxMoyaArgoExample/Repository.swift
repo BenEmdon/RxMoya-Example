@@ -11,12 +11,10 @@ import Runes
 import Curry
 
 struct Repository {
-
 	let identifier: Int
 	let language: String
 	let name: String
 	let fullName: String
-	
 }
 
 extension Repository: Decodable {
@@ -28,4 +26,3 @@ extension Repository: Decodable {
 		<*> json <| "full_name"
 	}
 }
-
