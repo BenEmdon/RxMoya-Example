@@ -6,7 +6,6 @@
 //  Copyright © 2017 Benjamin Emdon. All rights reserved.
 //
 
-import Foundation
 import Moya
 import RxOptional
 import RxSwift
